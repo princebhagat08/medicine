@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:medicine/const/app_color.dart';
+import 'package:medicine/screens/add_medicine.dart';
+import 'package:medicine/screens/home_screen.dart';
 import 'package:medicine/screens/login_screen.dart';
 import 'package:medicine/screens/main_screen.dart';
 
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         fontFamily: GoogleFonts.outfit().fontFamily,
         useMaterial3: true,
       ),
-      home: MainScreen(),
+      home: AddMedicine(),
     );
   }
 }
